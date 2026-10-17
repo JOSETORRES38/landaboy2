@@ -1,0 +1,52 @@
+/* ESTILO GENERAL Y TIPOGRAFÍA (VIDEO 8) */
+body {
+    background-color: #1a0933;
+    color: #f3e8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    color: #c084fc;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #e9d5ff;
+    line-height: 1.6;
+}
+
+/* ESTILO DE LISTAS (VIDEO 11) */
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: #c084fc;
+    padding: 5px;
+}
+
+/* ESTILO DE FORMULARIOS (VIDEO 13) */
+form {
+    background-color: #3b0764;
+    padding: 15px;
+    width: 280px;
+    border-radius: 8px;
+    border: 1px solid #7e22ce;
+}
+
+textarea {
+    background-color: #1a0933;
+    color: #ffffff;
+    border: 1px solid #7e22ce;
+    padding: 5px;
+    width: 90%;
+}
+
+input[type="submit"] {
+    background-color: #7e22ce;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
